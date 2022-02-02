@@ -6,3 +6,14 @@ img, video {
     height: 100%;
     width: auto;
 }
+
+input:checked ~ .dot {
+    transform: translateX(100%);
+    background-color: white;
+  }
+
+input:checked ~ .block {
+    background-color: rgb(249 115 22);
+    
+}  
+
